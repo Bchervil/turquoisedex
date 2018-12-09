@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Personal Pokédex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link rel="shortcut icon" href="images/pokeball.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Play:400,700|Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+  <div id="nav">
+    <div class="logo" text-align="center">
+      Welcome to turquoidex
+      by Bree
+    </div>
+
+
+  </div>
+  <main>
+    <div id="pokédex" class="container">
+      <div class="pokédex-top">
+        <div class="top-left">
+          <div class="lg-circle">
+
+          </div>
+          <div class="sm-circle-1">
+
+          </div>
+          <div class="sm-circle-2">
+
+          </div>
+          <div class="sm-circle-3">
+
+          </div>
+        </div>
+        <div class="search-bar">
+          <input id="search-input" name="search" type="text" placeholder="Enter Pokémon ID #">
+          <button id="button">GO!</button>
+        </div>
+      </div>
+
+      <div class="pokédex-screen">
+        <div class="screen-title">
+          <div id="pkmn-id">#---</div>
+          <div id="pkmn-name">Enter Pokémon</div>
+          <div></div>
+        </div>
+        <div class="screen-showcase">
+          <div id="pkmn-sprite">
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pokédex-stats">
+
+        <div class="pkmn-hp">
+          <div id="pkmn-hp">
+            <strong>HP:</strong> --
+          </div>
+        </div>
+        <div class="pkmn-atk">
+          <div id="pkmn-atk">
+            <strong>ATK:</strong> --
+          </div>
+        </div>
+        <div class="pkmn-def">
+          <div id="pkmn-def">
+            <strong>DEF:</strong> --
+          </div>
+        </div>
+        <div class="pkmn-spd">
+          <div id="pkmn-spd">
+            <strong>SPD:</strong> --
+          </div>
+        </div>
+
+
+
+
+
+        <div class="pkmn-height">
+          <div id="pkmn-height">
+            <strong>Height:</strong> --ft --in
+          </div>
+        </div>
+        <div class="pkmn-weight">
+          <div id="pkmn-weight">
+            <strong>Weight:</strong> -- lbs
+          </div>
+        </div>
+        <div class="pkmn-type">
+          <div id="pkmn-type">
+            <strong>Type(s):</strong> --
+          </div>
+        </div>
+        <div class="pkmn-stats">
+          <div class="stats-title">
+            <strong>Abilities:</strong>
+          </div>
+          <div class="stats-data">
+            <ul>
+              <li id="abl1">--</li>
+              <li id="abl2">--</li>
+              <li id="abl3">--</li>
+              <li id="abl4">--</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
