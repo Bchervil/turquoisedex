@@ -1,9 +1,9 @@
 let input = document.getElementById("search-input");
 let button = document.getElementById("button");
 let apiUrl =
-  "https://pokeapi.co/api/v2/pokemon/";
+  "https://raw.githubusercontent.com/Yorvi/api-data/master/data/api/v2/pokemon/";
 let apiUrlReset =
-  "https://pokeapi.co/api/v2/pokemon/";
+  "https://raw.githubusercontent.com/Yorvi/api-data/master/data/api/v2/pokemon/";
 
 input.addEventListener("keyup", function(event) {
   event.preventDefault();
